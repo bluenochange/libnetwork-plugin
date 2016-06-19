@@ -413,7 +413,7 @@ def join():
     json_response = {
         "InterfaceName": {
             "SrcName": temp_interface_name,
-            "DstPrefix": IF_PREFIX,
+            "DstPrefix": "eth",
         }
     }
 
